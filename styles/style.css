@@ -1,0 +1,41 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    padding: 5px 5px;
+    align-items: center;
+    border: rgb(103, 105, 105);
+}
+.nav-unique-item{
+    color: #d91b7e;
+}
+.nav-item{
+    color: #334155;
+}
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.common-btn{
+    background-color: #d91b7e;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.top-button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
