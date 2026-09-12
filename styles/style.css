@@ -1,11 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*nav bar start*/
 nav{
     display:flex;
     justify-content: space-between;
     margin: auto;
-    max-width: 1200px;
-    padding: 5px 5px;
+    max-width: auto;
+    padding: 0px 40px;
     align-items: center;
-    border: rgb(103, 105, 105);
+    border: #c6c3b5 solid 1px;
 }
 .nav-unique-item{
     color: #d91b7e;
@@ -38,4 +43,69 @@ nav ul li a{
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
+}
+/*nav bar*/
+/*hero section start*/
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    padding: 5px 5px;
+    align-items: center;
+}
+.section-1-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.section-1-left .big-blk-txt{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    text-align: left;
+    padding: 0px 5px 10px 30px;
+}
+.section-1-left .big-txt{
+    font-size: 60px;
+    font-weight: 600;
+    color: #d91b7e;
+    text-align: left;
+    padding: 0px 5px 10px 30px;
+}
+.section-1-left .small-txt{
+    font-size: 20px;
+    color: #64748b;
+    text-align: left;
+    padding: 10px 20px 10px 30px;
+}
+.section-1-left-btn{
+    display: flex;
+    gap: 10px;
+    padding: 20px 5px 10px 30px;
+    text-align: left;
+}
+.section-1-left-btn .unique-btn{
+    background-color: #d91b7e;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.section-1-left-btn .button{
+    background-color: white;
+    color: #475569;
+    cursor: pointer;
+    border: #c6c3b5 solid 1px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.section-1-right{
+    width: 50%;
+    text-align: right;
 }
